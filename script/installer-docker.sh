@@ -61,7 +61,7 @@ echo "Installation terminée."
 docker --version
 docker compose version
 docker run --rm hello-world
-EOF
+
 
 chmod +x installer-docker.sh
 sudo ./installer-docker.sh
